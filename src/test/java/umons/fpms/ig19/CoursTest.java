@@ -154,6 +154,9 @@ public class CoursTest {
         
         instance = new Cours("Seminaire", "4h", 3);
         instance.add(); // 7
+
+        instance = new Cours("Projet Encadrement", "3h", 3);
+        instance.add();  // 8
         
         System.out.println(Cours.select().toString());
     }
